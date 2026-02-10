@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Таблица</title>
 </head>
 <body>
-    
+    <label> Заполните обязательные поля, чтобы добавить данные в таблицу</label>
+    <form>
+        <p>
+            <label>Тип камушков:</label>
+            <select>
+                <option>сапфиры</option>
+                <option>рубины</option>
+                <option>алмазы</option>
+            </select>
+        </p>
+        
+        <p>
+            <label>Год:</label>
+            <input type="text" value="mm/dd/yyyy">
+            <label>✅</label>
+        </p>
+        
+        <p>
+            <label>Количество:</label>
+            <input type="number">
+            <label>❌</label>
+        </p>
+        
+        <button>Отправить</button>
+    </form>
+    <label>Добыча драгоценных камней</label>
+    <table border="1" width="60%">
+        <tr>
+            <th colspan="2">Камушек</th>
+            <th colspan="2">Год</th>
+            <tr></tr>
+        </tr>
+        <tr>
+            <td>jkgufvdnk</td>
+            <td>hnfjhnk</td>
+        </tr>
+    </table>
 </body>
 </html>
